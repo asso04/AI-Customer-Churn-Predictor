@@ -216,4 +216,10 @@ This system implements:
 
 # 📌 Project Summary
 
-AI Customer Churn Predictor is a SaaS-like machine learning platform designed for scalable churn prediction with per-client models and production-style API architecture.
+AI Customer Churn Predictor is a SaaS-like machine learning platform designed for scalable churn prediction with per-client models and production-style API architecture. 
+
+---
+
+## 📄 License
+
+Commercial use requires explicit permission from the author.
