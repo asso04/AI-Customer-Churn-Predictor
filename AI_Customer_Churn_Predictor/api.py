@@ -160,13 +160,11 @@ async def report(client_id: str, target_column: str):
 
     model_path = client[2]
 
-    # 👇 QUI CAMBIA TUTTO: usa predict_customers.csv
     predict_path = os.path.join(BASE_DIR, client_id, "predict_customers.csv")
 
     model = joblib.load(model_path)
     df = pd.read_csv(predict_path)
 
-    # se target esiste lo ignoriamo
     X = df.drop(columns=[target_column], errors="ignore")
 
     proba = model.predict_proba(X)[:, 1]
