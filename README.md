@@ -163,6 +163,8 @@ make sure to put your server ip in the script's url)
 
 python client.py
 
+![Dashboard Preview](assets/Screenshot 2026-06-29 012915.png)
+
 ---
 
 # 🔁 End-to-end workflow
@@ -209,7 +211,6 @@ This system implements:
 # 🚀 Possible improvements
 
 - API key authentication
-- Streamlit dashboard
 - Model versioning system
 
 ---
